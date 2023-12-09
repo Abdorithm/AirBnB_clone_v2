@@ -4,6 +4,7 @@ from fabric.api import *
 import time
 import os
 
+
 env.hosts = ['35.175.104.84', '100.26.151.210']
 env.user = 'ubuntu'
 
@@ -37,6 +38,7 @@ def do_deploy(archive_path):
 
     print('New version deployed!')
     return True
+
 
 def deploy():
     """Creates and distributes an archive to your web servers"""
