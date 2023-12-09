@@ -46,5 +46,4 @@ def deploy():
         path = do_pack()
         return do_deploy(path)
     except Exception:
-        print("Error occurred")
         return False
