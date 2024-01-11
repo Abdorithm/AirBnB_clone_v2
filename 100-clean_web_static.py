@@ -2,7 +2,7 @@
 """ Defines do_clean function """
 from fabric.api import *
 
-env.hosts = ['35.175.104.84', '100.26.151.210']
+env.hosts = ['52.204.168.90', '100.26.50.2']
 env.user = 'ubuntu'
 
 
